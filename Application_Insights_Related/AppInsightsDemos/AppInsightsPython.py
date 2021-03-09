@@ -18,5 +18,7 @@ tc = TelemetryClient(os.getenv("APPINSIGHTS_INSTRUMENTATIONKEY"))
 tc.track_event('Python Custom Event Fired')
 tc.flush()
 
+
+
 # COMMAND ----------
 
